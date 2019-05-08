@@ -1,4 +1,4 @@
-1. search (bfs, ucs, A*) - Pacman
+1. search (bfs, ucs, A*, etc.) - Pacman
 2. minimax, alpha-beta pruning - Othello
 3. logic & inference
 4. (partial order) planning
