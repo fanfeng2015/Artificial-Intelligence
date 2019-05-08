@@ -1,0 +1,29 @@
+1. Hyperparameters:
+
+population_size = 100
+max_generation = 200
+probability_crossover = 0.2
+probability_mutation = 0.3
+
+num_elitism = 5     # number of elites to pick
+prob_mutate = 0.5   # mutation probability on a single digit
+
+
+2. Selection:
+(1). First use elitism. To be specific, the top 5 best individuals are copied to the new generation.
+(2). Then use rank selection. To be specific, randomly choose parents for crossover according to the ranks.
+
+
+3. Crossover: 
+Use three-point crossover. Three points split each individual to four parts, the offspring is composed of the first and third parts of one parent, combined with the second and fourth parts of the other parent, ordering preserved.
+
+If no crossover is happening, randomly select one of the two parents as the new offspring.
+
+
+4. Mutation: 
+If mutation is happening, re-generate each digit according to prob_mutate.
+
+
+5. Replacement strategy:
+Use overlapping selection (elitism + rank).
+
