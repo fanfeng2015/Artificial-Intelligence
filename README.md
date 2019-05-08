@@ -6,4 +6,3 @@
 6. deep neural networks
 7. Q-learning - Pacman
 8. computer vision (edge detection, etc.)
-
